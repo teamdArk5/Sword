@@ -30,7 +30,7 @@
 
   ![](./images/tomcat.png)
 
-+ IIS
++ IIS6
   
   CVE-2017-7269，iis6 webdav远程代码执行漏洞扫描、ReverseShell、shellcode执行。
 
