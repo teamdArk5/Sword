@@ -32,6 +32,18 @@
 
 + IIS6
   
-  CVE-2017-7269，iis6 webdav远程代码执行漏洞扫描、ReverseShell、shellcode执行。
+  + CVE-2017-7269，iis6 webdav远程代码执行漏洞扫描、ReverseShell、shellcode执行。
 
   ![](./images/iis6_webdav.bmp)
+  
+  + HTTP PUT，批量扫描利用
+  
+    ![](.\images\httpput.png)
+
++ PHP
+  + CVE-2024-4577批量扫描，Getshell，getshell针对的是xampp的架构，通过其默认的`/dashboard/phpinfo.php`获取绝对路径写shell。当然，还可以通过执行命令读取apache的`confi/httpd.conf`文件，正则匹配`DocumentRoot`获取路径，还可以通过`dir /s /b c:\dashboard`遍历获取路径。
+  
+    ![](images/CVE2024-4577.png)
+    
+    
+
