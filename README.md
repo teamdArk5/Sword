@@ -51,6 +51,12 @@
 
   * 搜索引擎结果抓取，可以抓邮箱，URL等，主要看填入的正则表达式。
 
-    目前只支持Google的爬取，todo：Baidu Sogou Bing Yandex.
+    引擎支持：目前只支持Google的爬取，todo：Baidu Sogou Bing Yandex.
+    
+    结果页数判断，目前工具无法自行判断页面数量，需要手动判断后填入，未测试过大批量的过去。
+    
+    
+    
+    
     
     ![](./images/spider.bmp)
