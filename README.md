@@ -51,4 +51,6 @@
 
   * 搜索引擎结果抓取，可以抓邮箱，URL等，主要看填入的正则表达式。
 
+    目前只支持Google的爬取，todo：Baidu Sogou Bing Yandex.
+    
     ![](./images/spider.bmp)
